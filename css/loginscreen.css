@@ -1,0 +1,83 @@
+body {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.loginscreen {
+  width: 80vw;
+  height: 80vh;
+  position: absolute;
+}
+
+.firstscreen {
+  background-image: url(../assets/loading.gif);
+  background-position: center;
+  background-size: 0 bottom;
+  background-repeat: no-repeat;
+}
+
+.title-splash{
+  font-family: 'Philosopher', sans-serif;
+  color: rgb(31, 23, 37);
+}
+
+/*.loginscreen {
+  display: none;
+}*/
+
+.loginscreen{
+  width: 414px;
+  height: 400px;
+  padding: 10px;
+  color: rgb(31, 23, 37);
+  margin-top: 50px;
+}
+
+h1 {
+  padding: 10px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 35px;
+  color: rgb(31, 23, 37);
+}
+
+.loginscreen input{
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+}
+
+.emailSenha {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.emailSenha input {
+  width: 300px;
+  margin-left: 6px;
+}
+
+.loginscreen input {
+  border-radius: 5px;
+  background-color: rgb(176, 165, 182);
+  color: #ffffff;
+}
+.button {
+  background-color: rgb(31, 23, 37);
+  margin: 15px 55px;
+  font-size: 18px;
+  color: rgb(235, 181, 131); 
+  text-align:  center;
+  padding: 5px 30px;
+  text-align: center;
+  width: 150px;
+}
+
+.shadow {
+  -webkit-box-shadow: 6px 5px 10px -3px rgba(106,80,122,1);
+  -moz-box-shadow: 6px 5px 10px -3px rgba(106,80,122,1);
+  box-shadow: 6px 5px 10px -3px rgba(106,80,122,1);
+}
+
+
